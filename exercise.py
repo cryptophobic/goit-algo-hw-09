@@ -37,6 +37,5 @@ def find_min_coins(coins, amount):
 coin_set = [50, 25, 10, 5, 2, 1]
 amount = 113
 
-# missing result: {50: 2, 10: 1, 2: 1, 1: 1}
 print(f" find_coins_greedy() : {find_coins_greedy(coin_set, amount)}")
 print(f" find_min_coins() :    {find_min_coins(coin_set, amount)}")
